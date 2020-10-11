@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-11T20:59:25.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 YaBrowser/20.9.0.933 Yowser/2.5 Safari/537.36" etag="fhN58oq_l789l6M0d77N" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-11T21:03:55.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 YaBrowser/20.9.0.933 Yowser/2.5 Safari/537.36" etag="2JdXhDcmUrkjYDIKGcbu" version="13.7.9" type="github">
   <diagram id="05o1-1mMGq_8YkQ1KUJ1" name="Page-1">
     <mxGraphModel dx="1038" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,16 +13,16 @@
         <mxCell id="PPWNT0VpLKDjdIvPiVv8-4" value="Авторизация" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="160" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PPWNT0VpLKDjdIvPiVv8-6" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="PPWNT0VpLKDjdIvPiVv8-6" value="Просмотр мероприятий" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="280" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PPWNT0VpLKDjdIvPiVv8-7" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="PPWNT0VpLKDjdIvPiVv8-7" value="Работа с профилем" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="280" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PPWNT0VpLKDjdIvPiVv8-8" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="PPWNT0VpLKDjdIvPiVv8-8" value="Работа с чатом" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="280" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PPWNT0VpLKDjdIvPiVv8-9" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="PPWNT0VpLKDjdIvPiVv8-9" value="Работа с ресурсами приложения" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="280" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PPWNT0VpLKDjdIvPiVv8-10" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="PPWNT0VpLKDjdIvPiVv8-4">
@@ -60,6 +60,45 @@
             <mxPoint x="720" y="260" as="sourcePoint" />
             <mxPoint x="490" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PPWNT0VpLKDjdIvPiVv8-20" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="400" as="sourcePoint" />
+            <mxPoint x="720" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPWNT0VpLKDjdIvPiVv8-21" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="PPWNT0VpLKDjdIvPiVv8-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="400" as="sourcePoint" />
+            <mxPoint x="470" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPWNT0VpLKDjdIvPiVv8-22" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="400" as="sourcePoint" />
+            <mxPoint x="320" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPWNT0VpLKDjdIvPiVv8-23" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="719.5" y="400" as="sourcePoint" />
+            <mxPoint x="719.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPWNT0VpLKDjdIvPiVv8-24" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519.5" y="400" as="sourcePoint" />
+            <mxPoint x="519.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPWNT0VpLKDjdIvPiVv8-25" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="400" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPWNT0VpLKDjdIvPiVv8-26" value="Выход" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
